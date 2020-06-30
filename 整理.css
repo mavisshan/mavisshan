@@ -1,0 +1,79 @@
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(90, 131, 141, 0.644);
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+}
+
+.card-img-top {
+  height: 424px;
+}
+
+#parallax {
+  width: 100%;
+  height: 6000px;
+}
+
+#parallax .bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/007.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#parallax p {
+  width: 60%;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#text h2:hover {
+  color: #ee5072;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(90, 131, 141, 0.644);
+}
+/*# sourceMappingURL=整理.css.map */
